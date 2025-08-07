@@ -1,0 +1,7 @@
+name = "project-a"
+
+[run]
+hot = true
+
+[install]
+peer = true

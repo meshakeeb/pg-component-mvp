@@ -1,0 +1,7 @@
+name = "pg"
+
+[run]
+hot = true
+
+[install]
+peer = true

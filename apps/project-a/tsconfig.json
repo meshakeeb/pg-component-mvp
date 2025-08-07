@@ -1,0 +1,18 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@mm/pg": ["../../packages/pg/src"],
+      "@mm/pg/*": ["../../packages/pg/src/*"]
+    }
+  },
+  "include": [
+    "src"
+  ],
+  "references": [
+    {
+      "path": "../../packages/pg"
+    }
+  ]
+}

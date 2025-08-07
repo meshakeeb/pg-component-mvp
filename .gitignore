@@ -1,0 +1,46 @@
+# Node modules (Bun also uses node_modules)
+**/node_modules/
+
+# Bun cache (compiled JS/TS, transpilation cache, etc.)
+.bun/
+
+# Build output directories (commonly used)
+**/dist/
+**/build/
+**/.turbo/
+**/.next/
+**/.vite/
+
+# TypeScript
+**/*.tsbuildinfo
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+bun-debug.log*
+
+# Environment files (make sure this is okay for your team)
+.env
+.env.*.local
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+*.sw?
+
+# Testing coverage
+coverage/
+
+# Bun lockfile (optional — keep it if you want lockfile control)
+bun.lockb
+
+# Optional: Ignore these if you're generating docs locally
+docs/
+*.docx
+*.pdf

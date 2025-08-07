@@ -1,0 +1,17 @@
+name = "pg-monorepo"
+
+[install]
+# Enable workspace support
+workspaces = true
+
+[install.cache]
+# Cache dependencies globally
+dir = ".bun/cache"
+
+[install.lockfile]
+# Save lockfile in root
+path = "bun.lockb"
+
+[run]
+# Enable hot reloading for development
+hot = true
