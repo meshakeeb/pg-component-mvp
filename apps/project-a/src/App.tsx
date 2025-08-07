@@ -1,6 +1,9 @@
 import React, { useState } from 'react'
 import { Button } from '@mm/pg'
 
+import '../../../packages/pg/dist/components.css'
+import './index.css'
+
 function App() {
   const [count, setCount] = useState(0)
   const [variant, setVariant] = useState<'primary' | 'secondary' | 'outline'>('primary')
